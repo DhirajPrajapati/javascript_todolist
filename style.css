@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(
+    -30deg,
+    rgba(3, 169, 244, 1) 62%,
+    rgba(48, 49, 51, 1) 100%
+  );
+}
+
+.container {
+  max-width: 500px;
+  color: #fff;
+}
+
+input[type="text"],
+input[type="text"]:focus {
+  color: #fff;
+  border: none;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.todo li {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.delete {
+  cursor: pointer;
+}
+
+.filtered {
+  display: none !important;
+}
